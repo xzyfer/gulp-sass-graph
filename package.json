@@ -1,0 +1,38 @@
+{
+  "name": "gulp-sass-graph",
+  "version": "1.0.0",
+  "description": "Only pass along Sass files that have changed, along with dependencies. ",
+  "license": "MIT",
+  "repository": "lox/gulp-sass-graph",
+  "author": {
+    "name": "Lachlan Donald",
+    "email": "lachlan@ljd.cc",
+    "url": "https://lachlan.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "sass",
+    "changed",
+    "modification"
+  ],
+  "dependencies": {
+  	"lodash": "~2.4.0",
+    "gulp-util": "~2.2.0",
+    "through2": "~0.4.0",
+    "vinyl": "~0.2.3",
+    "glob": "~3.2.8"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "rimraf": "~2.2.6"
+  }
+}

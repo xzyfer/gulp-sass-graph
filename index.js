@@ -139,7 +139,8 @@ module.exports = function (loadPaths) {
             	this.push(new File({
             		cwd: file.cwd,
             		base: file.base,
-            		path: node.path
+            		path: node.path,
+            		contents: fs.readFileSync(node.path)
             	}));
             }.bind(this));
 

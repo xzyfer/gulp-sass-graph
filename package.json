@@ -1,6 +1,6 @@
 {
   "name": "gulp-sass-graph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Only pass along Sass files that have changed, along with dependencies. ",
   "license": "MIT",
   "repository": "lox/gulp-sass-graph",

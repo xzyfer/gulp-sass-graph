@@ -124,7 +124,7 @@ module.exports = function (loadPaths) {
                     return cb();
             }
 
-            var relativePath = file.path.substr(file.cwd.length+1);
+            var relativePath = file.path.substr(file.cwd.length+1).replace(/\\/g, '/');
             console.log("processing %s", relativePath);
 
             if(!graph[relativePath]) {
